@@ -1,0 +1,85 @@
+html{
+  font-size: 16px;
+}
+
+.app {
+  background: #212121;
+  min-height: 100vh;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.app > div {
+  padding: 2rem;
+  position: relative;
+}
+
+.title {
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.videoTile {
+  display: flex;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.videoTile:hover {
+  opacity: .5;
+  background-color: #ffffff1a;
+}
+
+.metadata {
+  padding: .5rem 1rem .5rem;
+}
+
+.metadata p {
+  margin: .5rem 0;
+}
+
+.metadata p:first-child {
+  font-size: 14px;
+}
+
+.metadata p:nth-child(2) {
+  font-size: 11px;
+  color: #FFFFFFB2;
+  font-weight: 400;
+  margin-bottom: 0.3rem;
+}
+
+.metadata p:nth-child(3) {
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 0.3rem;
+}
+
+.metadata p:nth-child(4) {
+  font-size: 8px;
+  padding: 3px 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #6185BB;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 4rem);
+  position: absolute;
+  background-color: #000;
+  bottom: 35px;
+  padding: 8px;
+}

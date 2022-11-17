@@ -1,0 +1,29 @@
+import * as jspb from 'google-protobuf'
+
+
+
+export enum SfuType { 
+  STYPE_UNKNOWN = 0,
+  STYPE_ROUTER = 1,
+  STYPE_GATEWAY = 2,
+}
+export enum SfuStatus { 
+  SSTATUS_UNKNOWN = 0,
+  SSTATUS_RUNNING = 1,
+  SSTATUS_STARTING = 2,
+  SSTATUS_TERMINATING = 3,
+  SSTATUS_UNAVAILABLE = 4,
+}
+export enum SfuUserStatus { 
+  SUSTATUS_UNKNOWN = 0,
+  SUSTATUS_CONNECTED = 1,
+  SUSTATUS_CONNECTING = 2,
+  SUSTATUS_RECONNECTING = 3,
+}
+export enum WebsocketStatus { 
+  WSTATUS_UNKNOWN = 0,
+  WSTATUS_RUNNING = 1,
+  WSTATUS_STARTING = 2,
+  WSTATUS_TERMINATING = 3,
+  WSTATUS_UNAVAILABLE = 4,
+}
