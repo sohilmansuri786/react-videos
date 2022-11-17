@@ -2,6 +2,9 @@
 
 Figma : https://www.figma.com/file/KPasQiF5UuA8ijPNJFHeI7/youtube-player?node-id=0%3A1
 
+![image](https://user-images.githubusercontent.com/96531678/202428865-f7e950aa-41ec-40e8-ac22-3b2bc9884d81.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
